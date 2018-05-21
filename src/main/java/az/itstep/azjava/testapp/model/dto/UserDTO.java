@@ -1,19 +1,18 @@
 package az.itstep.azjava.testapp.model.dto;
 
-import az.itstep.azjava.testapp.model.Employee;
+import az.itstep.azjava.testapp.model.Message;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.List;
+import java.util.Date;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class DepartmentDTO {
+public class UserDTO {
     private Integer id;
-    private String name;
-    private List<Employee> employees;
+    private String username;
 }
